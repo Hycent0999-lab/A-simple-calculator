@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #11344b;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #011b2b;
+    padding: 35px 25px;
+    width: 333px;
+}
+
+.num {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    margin: 5px;
+    background: #011b2d;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+.num:active {
+    background: #012640;
+}
+
+input[type="textview"] {
+    width: 296px;
+    height: 90px;
+    margin: 0 5px 15px 5px;
+    padding: 0 10px; 
+    font-size: 30px;
+    text-align: right;
+}
+
+.clear {
+    width: 154px;
+    background: #f40a51;
+}
+
+.clear:active {
+    background: #b40a3e;
+}
+
+.zero {
+    width: 154px;
+    background: #005eff;  
+}
+
+.zero:active {
+    background: #093886;
+}
+
+.equal {
+    height: 150px;
+    background: #180dee;
+}
+
+.equal:active{
+    background: #0c0598;
+}
